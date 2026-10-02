@@ -1,35 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale $=1.0^{\prime\prime}>$
-<title>Formularios en HTML - Agrupamiento</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
-</head>
-<body>
-<h2>Formularios con agrupamiento</h2>
-<form action="" method="post">
-<fieldset>
-<legend>Datos personales</legend>
-Nombre y apellido:
-<input type="text" name="nombre_apellido"><br>
-Documento valido:
-<input type="file" name="documento"><br>
-Fecha de nacimiento:
-<input type="date" name="fecha_nacimiento">
-</fieldset>
-<fieldset>
-<legend>Datos de estudio:</legend>
-Nombre de la escuela:
-<input type="text" name="escuela"><br>
-Certificado valido:
-<input type="file" name="certificado"><br>
-Fecha de egreso:
-<input type="date" name="fecha_egreso">
-</fieldset>
-<br>
-<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i></button>
-<button type="reset">Borrar <i class="fa fa-trash"></i></button>
-</form>
-</body>
-</html>
+<!DOCTYPE html> <!-- Identificador de estándar HTML5 -->
+<html lang="en"> <!-- Definición del idioma del archivo -->
+<head> <!-- Encabezado para metadatos del sistema -->
+<meta charset="UTF-8"> <!-- Codificación UTF-8 para admitir caracteres varios -->
+<meta name="viewport" content="width=device-width, initial-scale $=1.0^{\prime\prime}>$ <!-- Ajuste de vista para dispositivos móviles -->
+<title>Formularios en HTML - Agrupamiento</title> <!-- Nombre de la pestaña web -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"> <!-- Carga de colección de íconos -->
+</head> <!-- Cierre de cabecera -->
+<body> <!-- Inicio de contenido interactivo -->
+<h2>Formularios con agrupamiento</h2> <!-- Título de la sección de formulario agrupado -->
+<form action="" method="post"> <!-- Contenedor de datos que se procesan por método POST -->
+<fieldset> <!-- Agrupa visualmente mediante un recuadro un conjunto de campos relacionados -->
+<legend>Datos personales</legend> <!-- Define el título superior del grupo del fieldset -->
+Nombre y apellido: <!-- Texto descriptivo del campo -->
+<input type="text" name="nombre_apellido"><br> <!-- Entrada de texto con salto de línea -->
+Documento valido: <!-- Texto descriptivo del campo de archivo -->
+<input type="file" name="documento"><br> <!-- Entrada para subir archivos del sistema con salto de línea -->
+Fecha de nacimiento: <!-- Texto descriptivo para la fecha -->
+<input type="date" name="fecha_nacimiento"> <!-- Selector interactivo de calendario para la fecha -->
+</fieldset> <!-- Cierre del primer grupo de datos -->
+<fieldset> <!-- Crea un segundo recuadro para agrupar campos de otra temática -->
+<legend>Datos de estudio:</legend> <!-- Título visible del recuadro del segundo grupo -->
+Nombre de la escuela: <!-- Etiqueta descriptiva del campo -->
+<input type="text" name="escuela"><br> <!-- Entrada de texto estándar con salto de renglón -->
+Certificado valido: <!-- Etiqueta del adjunto -->
+<input type="file" name="certificado"><br> <!-- Entrada de carga de archivos con salto de renglón -->
+Fecha de egreso: <!-- Etiqueta descriptiva de la fecha -->
+<input type="date" name="fecha_egreso"> <!-- Selector de fecha mediante interfaz de calendario -->
+</fieldset> <!-- Cierre del segundo grupo de datos -->
+<br> <!-- Salto de renglón -->
+<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i></button> <!-- Botón de envío con ícono incorporado -->
+<button type="reset">Borrar <i class="fa fa-trash"></i></button> <!-- Botón para reiniciar todos los grupos del formulario con ícono -->
+</form> <!-- Cierre de la etiqueta de formulario -->
+</body> <!-- Cierre del elemento body -->
+</html> <!-- Cierre del elemento raíz HTML -->
