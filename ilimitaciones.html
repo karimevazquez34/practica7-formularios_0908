@@ -1,25 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale $=1.0^{\prime\prime}>$
-<title>Formularios en HTML - Limitaciones</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
-</head>
-<body>
-<h2>Formulario con limitaciones</h2>
-<form action="" method="post">
-Ingresa tu nombre:
-<!-- Desahbilitacion de campo -->
-<input type="text" name="nombre" disabled><br>
-<!-- Limitacion de caracteres -->
-Contraseña:
-<input type="password" name="pass" maxlength="5"><br>
-<!-- Solo lectura -->
-Comentarios:
-<textarea name="comentarios" readonly>
-Este es mi comentario y no se puede borrar
-</textarea><br>
-</form>
-</body>
-</html>
+<!DOCTYPE html> <!-- Declaración del formato HTML5 -->
+<html lang="en"> <!-- Idioma asignado al archivo HTML -->
+<head> <!-- Metadatos y enlaces de fuentes externas -->
+<meta charset="UTF-8"> <!-- Configuración de caracteres universales -->
+<meta name="viewport" content="width=device-width, initial-scale $=1.0^{\prime\prime}>$ <!-- Responsividad para adaptar pantalla -->
+<title>Formularios en HTML - Limitaciones</title> <!-- Título en pestaña navegable -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"> <!-- Enlace a íconos Font Awesome -->
+</head> <!-- Cierre del encabezado -->
+<body> <!-- Inicio del cuerpo del documento HTML -->
+<h2>Formulario con limitaciones</h2> <!-- Título principal del bloque -->
+<form action="" method="post"> <!-- Formulario configurado con envío POST -->
+Ingresa tu nombre: <!-- Texto informativo de la entrada -->
+<!-- Desahbilitacion de campo --> <!-- Comentario original sobre la instrucción de deshabilitar -->
+<input type="text" name="nombre" disabled><br> <!-- Campo inhabilitado mediante 'disabled', no permite edición ni envía su valor -->
+<!-- Limitacion de caracteres --> <!-- Comentario original sobre restringir la longitud -->
+Contraseña: <!-- Texto explicativo para el campo de clave -->
+<input type="password" name="pass" maxlength="5"><br> <!-- Campo de contraseña limitado con 'maxlength="5"' para admitir solo hasta 5 caracteres -->
+<!-- Solo lectura --> <!-- Comentario original sobre la propiedad de solo lectura -->
+Comentarios: <!-- Etiqueta descriptiva del campo de comentarios -->
+<textarea name="comentarios" readonly> <!-- Campo de texto con 'readonly', muestra un valor pero impide que el usuario lo modifique -->
+Este es mi comentario y no se puede borrar <!-- Texto predeterminado precargado en el campo de solo lectura -->
+</textarea><br> <!-- Cierre del campo textarea y salto de renglón -->
+</form> <!-- Cierre del elemento formulario -->
+</body> <!-- Cierre del elemento body -->
+</html> <!-- Cierre del documento HTML -->
